@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "rm -rf dist && tsc --build && ./index.js"
+    "build": "rm -rf dist && tsc --build && echo 'index.js looks like this:\n' && cat ./lib/esm/index.js && echo"
   },
   "type": "module",
   "devDependencies": {
