@@ -5,6 +5,7 @@
   "scripts": {
     "start": "rm -rf dist && tsc --build && ./index.js"
   },
+  "type": "module",
   "devDependencies": {
     "typescript": "latest"
   }
